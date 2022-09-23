@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleImageConverter", "SimpleImageConverter\SimpleImageConverter.csproj", "{D5B101F8-D265-4DC0-8813-E27E9D93D1DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5B101F8-D265-4DC0-8813-E27E9D93D1DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5B101F8-D265-4DC0-8813-E27E9D93D1DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5B101F8-D265-4DC0-8813-E27E9D93D1DE}.Debug|x64.ActiveCfg = Debug|x64
+		{D5B101F8-D265-4DC0-8813-E27E9D93D1DE}.Debug|x64.Build.0 = Debug|x64
+		{D5B101F8-D265-4DC0-8813-E27E9D93D1DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5B101F8-D265-4DC0-8813-E27E9D93D1DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5B101F8-D265-4DC0-8813-E27E9D93D1DE}.Release|x64.ActiveCfg = Release|x64
+		{D5B101F8-D265-4DC0-8813-E27E9D93D1DE}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B1A1E5C-24AB-45CD-86BC-BFE437249A36}
+	EndGlobalSection
+EndGlobal
