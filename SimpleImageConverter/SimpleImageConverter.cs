@@ -35,7 +35,18 @@ namespace SimpleImageConverter
         {
             for (int ii = 0, count = checkedListBoxExt1.Items.Count; ii < count; ++ii)
             {
-                checkedListBoxExt1.SetItemChecked(ii, true);
+                if (ii == 4)
+                {
+                    checkedListBoxExt1.SetItemChecked(ii, true);
+                }
+            }
+
+            for (int ii = 0, count = checkedListBoxExt2.Items.Count; ii < count; ++ii)
+            {
+                if (ii == 1)
+                {
+                    checkedListBoxExt2.SetItemChecked(ii, true);
+                }
             }
 
             toolStripStatusLabel1.Text = "ファイルまたはフォルダを画面にドラッグ＆ドロップしてください";
@@ -116,6 +127,11 @@ namespace SimpleImageConverter
                         }
                     }
                 }
+            }
+
+            if (checkBox1.Checked)
+            {
+                buttonStart.PerformClick();
             }
         }
 
